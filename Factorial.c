@@ -1,6 +1,5 @@
 #include <stdio.h>
 int fact(int n);
-
 int main()
 {
     int n, r;
@@ -10,7 +9,6 @@ int main()
     printf("FACTORIAL IS: %d\n", r);
     return 0;
 }
-
 int fact(int n)
 {
     if (n == 0)
